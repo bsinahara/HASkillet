@@ -1,4 +1,4 @@
-th_securityblockrule_panos_v81 adds a basic IP EDL
+# edl_with_securityblockrule_panos_v81 adds a basic IP EDL
 # also created in and out security blocks rules with EDL as address
 # once created the security rule should be moved to the top of the rule list
 # associated to John Newsome Minemeld demo
@@ -13,9 +13,10 @@ dependency:
 type: panos
 extends:
 
-# grouping of like snippets for dynamic menu creation in pan-cnc
+# grouping of like snippets for dynamic menu creation in panhandler
 labels:
-  service_type: minemeld
+  collection:
+    - HASkillet
 
 # variables used in the configuration templates
 # type_hint defines the form field type in pan-cnc

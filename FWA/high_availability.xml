@@ -1,4 +1,4 @@
-ce>
+<interface>
         <ha1>
           <ip-address>{{ha1_ip_address}}</ip-address>
           <netmask>{{ha1_netmask}}</netmask>
@@ -24,7 +24,7 @@ ce>
         <election-option>
           <heartbeat-backup>yes</heartbeat-backup>
           <timers>
-            <aggresive/>
+            <aggressive/>
           </timers>
         </election-option>
       </group>

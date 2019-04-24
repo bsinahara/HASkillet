@@ -1,4 +1,4 @@
-ce>
+<interface>
         <ha1>
           <ip-address>{{ha1_ip_address}}</ip-address>
           <netmask>{{ha1_netmask}}</netmask>

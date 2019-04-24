@@ -55,5 +55,5 @@ variables:
 # files will load in the order listed
 snippets:
   - name: high_availability
-    xpath: /config/devices/entry[@name='localhost.localdomain']/deviceconfig/high-availability"
+    xpath: /config/devices/entry[@name='localhost.localdomain']/deviceconfig/high-availability
     file: high_availability.xml

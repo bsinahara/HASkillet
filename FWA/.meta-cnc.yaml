@@ -4,10 +4,10 @@
 # associated to John Newsome Minemeld demo
 
 # unique snippet name
-name: HA_Skillet
+name: HA_Skillet_FWA
 # label used for menu selection
-label: HA Active Passive Configuration
-description: HA Active Passive Configuration
+label: HA Active Passive FWA Configuration
+description: HA Active Passive FWA Configuration
 dependency:
 # type of device configuration
 type: panos

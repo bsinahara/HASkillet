@@ -23,7 +23,7 @@ labels:
 variables:
   - name: ha1_ip_address
     description: HA1 IP Address
-    default: 1.1.2.1
+    default: 1.1.1.2
     type_hint: ip_address
   - name: ha1_netmask
     description: HA1 Netmask
